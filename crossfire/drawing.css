@@ -1,0 +1,11 @@
+.canvas_div{
+position: absolute;
+left: 0px;
+top: 150px;
+z-index:-500;
+}
+
+#stretch{
+position: asbolute;
+top : 0 px;
+}

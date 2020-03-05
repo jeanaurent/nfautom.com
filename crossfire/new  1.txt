@@ -1,0 +1,175 @@
+﻿<tr class="AU" id="ROW_WWW">																\
+<td width = "140px">																\
+<div class = "unit" id="AUM1">																\
+		<div class = "header_unit_left">MASTER</div>														\
+		<div class = "header_unit_right">														\
+					<div class="flipswitch"><input type="checkbox" id = "but_activ_AUM1" row_number = "WWW" onclick="ActiveDeactiv(this.getAttribute(\'id\'),this.getAttribute(\'row_number\'))"><label></label></div>  											\
+		</div>														\
+		<div class ="body_unit" id="cellule_but_activ_AUM1_WWW">														\
+		<div class ="body_unit_modules">														\
+			<div class ="image_module"><a href="" class="tooltip" title="module ACCESS UNIT"><img src="pic\images\AU Module.png" alt="module" style="width:35px"></a></div>													\
+			<div id="mod1_AUM1" class ="list_module" ><select name="MHZ" class="listbox"><option style="blank">MODULE</option><option value="700">700MHz</option><option value="800">800MHz</option><option value="850">850MHz</option><option value="900">900MHz</option><option value="1700">1700MHz</option><option value="1800">1800MHz</option><option value="1900">1900MHz</option><option value="2100">2100MHz</option><option value="2300">2300MHz</option><option value="2600">2600MHz</option></select></div>													\
+			<div id="mod2_AUM1" class ="list_module" ><select name="MHZ" class="listbox"><option value="blank">MODULE</option><option value="700">700MHz</option><option value="800">800MHz</option><option value="850">850MHz</option><option value="900">900MHz</option><option value="1700">1700MHz</option><option value="1800">1800MHz</option><option value="1900">1900MHz</option><option value="2100">2100MHz</option><option value="2300">2300MHz</option><option value="2600">2600MHz</option></select></div>													\
+			<div id="mod3_AUM1" class ="list_module" ><select name="MHZ" class="listbox"><option value="blank">MODULE</option><option value="700">700MHz</option><option value="800">800MHz</option><option value="850">850MHz</option><option value="900">900MHz</option><option value="1700">1700MHz</option><option value="1800">1800MHz</option><option value="1900">1900MHz</option><option value="2100">2100MHz</option><option value="2300">2300MHz</option><option value="2600">2600MHz</option></select></div>													\
+			<div id="mod4_AUM1" class ="list_module" ><select name="MHZ" class="listbox"><option value="blank">MODULE</option><option value="700">700MHz</option><option value="800">800MHz</option><option value="850">850MHz</option><option value="900">900MHz</option><option value="1700">1700MHz</option><option value="1800">1800MHz</option><option value="1900">1900MHz</option><option value="2100">2100MHz</option><option value="2300">2300MHz</option><option value="2600">2600MHz</option></select></div>													\
+		</div>														\
+		<div class ="body_unit_photo" >														\
+			<img src="pic\images\AU Chassis.png" alt="AU Chassis" width="100%">													\
+		</div> 														\
+</div> 																\
+</td>																\
+<td width = "140px">																\
+<div class = "unit" id="AU_XXXAUS1">																\
+		<div class = "header_unit_left">SLAVE 1</div>														\
+		<div class = "header_unit_right">														\
+				<div class="flipswitch"><input type="checkbox" id = "but_activ_AUS1" row_number = "WWW" onclick="ActiveDeactiv(this.getAttribute(\'id\'),this.getAttribute(\'row_number\'))"><label></label></div>												\
+		</div>														\
+		<div class ="body_unit_inactive" id="cellule_but_activ_AUS1_WWW">														\
+		<div class ="body_unit_modules" >														\
+			<div class ="image_module" ><img src="pic\images\AU Module.png" alt="module" style="width:35px"></div>													\
+			<div id="mod1_AUS1" class ="list_module" ><select name="MHZ" class="listbox"><option value="blank">MODULE</option><option value="700">700MHz</option><option value="800">800MHz</option><option value="850">850MHz</option><option value="900">900MHz</option><option value="1700">1700MHz</option><option value="1800">1800MHz</option><option value="1900">1900MHz</option><option value="2100">2100MHz</option><option value="2300">2300MHz</option><option value="2600">2600MHz</option></select></div>													\
+			<div id="mod2_AUS1" class ="list_module" ><select name="MHZ" class="listbox"><option value="blank">MODULE</option><option value="700">700MHz</option><option value="800">800MHz</option><option value="850">850MHz</option><option value="900">900MHz</option><option value="1700">1700MHz</option><option value="1800">1800MHz</option><option value="1900">1900MHz</option><option value="2100">2100MHz</option><option value="2300">2300MHz</option><option value="2600">2600MHz</option></select></div>													\
+			<div id="mod3_AUS1" class ="list_module" ><select name="MHZ" class="listbox"><option value="blank">MODULE</option><option value="700">700MHz</option><option value="800">800MHz</option><option value="850">850MHz</option><option value="900">900MHz</option><option value="1700">1700MHz</option><option value="1800">1800MHz</option><option value="1900">1900MHz</option><option value="2100">2100MHz</option><option value="2300">2300MHz</option><option value="2600">2600MHz</option></select></div>													\
+			<div id="mod4_AUS1" class ="list_module" ><select name="MHZ" class="listbox"><option value="blank">MODULE</option><option value="700">700MHz</option><option value="800">800MHz</option><option value="850">850MHz</option><option value="900">900MHz</option><option value="1700">1700MHz</option><option value="1800">1800MHz</option><option value="1900">1900MHz</option><option value="2100">2100MHz</option><option value="2300">2300MHz</option><option value="2600">2600MHz</option></select></div>													\
+		</div>														\
+		<div class ="body_unit_photo" >														\
+			<img src="pic\images\AU Chassis.png" alt="AU Chassis" width="100%">													\
+		</div>														\
+		</div> 														\
+</div>																\
+</td>																\
+<td width = "140px">																\
+<div class = "unit" id="AU_XXXAUS2">																\
+		<div class = "header_unit_left">SLAVE 2</div>														\
+		<div class = "header_unit_right">														\
+					<div class="flipswitch"><input type="checkbox" id = "but_activ_AUS2" row_number = "WWW" onclick="ActiveDeactiv(this.getAttribute(\'id\'),this.getAttribute(\'row_number\'))"><label></label></div>											\
+		</div> 														\
+		<div class ="body_unit" id="cellule_but_activ_AUS2_WWW">														\
+		<div class ="body_unit_modules" >														\
+			<div class ="image_module" ><img src="pic\images\AU Module.png" alt="module" style="width:35px"></div>													\
+			<div id="mod1_AUS2 "class ="list_module" ><select name="MHZ" class="listbox"><option value="blank">MODULE</option><option value="700">700MHz</option><option value="800">800MHz</option><option value="850">850MHz</option><option value="900">900MHz</option><option value="1700">1700MHz</option><option value="1800">1800MHz</option><option value="1900">1900MHz</option><option value="2100">2100MHz</option><option value="2300">2300MHz</option><option value="2600">2600MHz</option></select></div>													\
+			<div id="mod2_AUS2" class ="list_module" ><select name="MHZ" class="listbox"><option value="blank">MODULE</option><option value="700">700MHz</option><option value="800">800MHz</option><option value="850">850MHz</option><option value="900">900MHz</option><option value="1700">1700MHz</option><option value="1800">1800MHz</option><option value="1900">1900MHz</option><option value="2100">2100MHz</option><option value="2300">2300MHz</option><option value="2600">2600MHz</option></select></div>													\
+			<div id="mod3_AUS2" class ="list_module" ><select name="MHZ" class="listbox"><option value="blank">MODULE</option><option value="700">700MHz</option><option value="800">800MHz</option><option value="850">850MHz</option><option value="900">900MHz</option><option value="1700">1700MHz</option><option value="1800">1800MHz</option><option value="1900">1900MHz</option><option value="2100">2100MHz</option><option value="2300">2300MHz</option><option value="2600">2600MHz</option></select></div>													\
+			<div id="mod4_AUS2" class ="list_module" ><select name="MHZ" class="listbox"><option value="blank">MODULE</option><option value="700">700MHz</option><option value="800">800MHz</option><option value="850">850MHz</option><option value="900">900MHz</option><option value="1700">1700MHz</option><option value="1800">1800MHz</option><option value="1900">1900MHz</option><option value="2100">2100MHz</option><option value="2300">2300MHz</option><option value="2600">2600MHz</option></select></div>													\
+		</div> 														\
+		<div class ="body_unit_photo" >														\
+			<img src="pic\images\AU Chassis.png" alt="AU Chassis" width="100%">													\
+		</div> 														\
+		</div>														\
+</div> 																\
+</td>																\
+<td width = "140px" class = "nonaff" id = "détail">																\
+<div class = "eu_unit" id="EU_XXXEU1">																\
+		<div class = "header_unit_left">Exp. Unit</div>														\
+		<div class = "header_unit_right">														\
+					<div class="flipswitch"><input type="checkbox" id = "but_activ_EU1" row_number = "WWW" onclick="ActiveDeactiv(this.getAttribute(\'id\'),this.getAttribute(\'row_number\'))"><label></label></div>											\
+		</div> 														\
+		<div class ="eu_body_unit" id="cellule_but_activ_EU1_WWW">														\
+			<div class ="eu_body_unit_photo" >													\
+				<img src="pic\images\EU (Reduced).png" alt="AU Chassis" width="100%">												\
+			</div> 													\
+		</div> 														\
+		<div><input type="button" value="+" class="btn_addeu" row_number = "RRR"></div>														\
+</div> 																\
+</td>																\
+<td width = "140px">																\
+<div class = "ru_unit" id="RU_XXXRUM">																\
+		<div class = "header_unit_left">RU Master</div>														\
+		<div class = "header_unit_right">														\
+					<div class="flipswitch"><input type="checkbox" id = "but_activ_RUM1"  row_number = "WWW" onclick="ActiveDeactiv(this.getAttribute(\'id\'),this.getAttribute(\'row_number\'))"><label></label></div>											\
+		</div> 														\
+		<div class ="ru_body_unit" id="cellule_but_activ_RUM1_WWW">														\
+			<input type = "radio" name = "ru_power" id = "high_RUM1_WWW" value = "high" checked = "checked" /><label for = "high_power">High Power</label><p></p>													\
+			<input type = "radio" name = "ru_power" id = "low_RUM1_WWW" value = "low" /><label for = "low_power">Low Power</label>													\
+		<div class ="ru_body_unit_photo" >														\
+			<img src="pic\images\RU Chassis.png" alt="AU Chassis" width="100%">													\
+		</div>														\
+		</div> 														\
+		<div><input type="button" value="+" class="btn_addru" row_number = "RRR"></div>														\
+</div> 																\
+</td>																\
+<td width = "140px">																\
+<div class = "ru_unit" id="RU_XXXRUS1">																\
+		<div class = "header_unit_left">RU Slave 1</div>														\
+		<div class = "header_unit_right">														\
+				<div class="flipswitch"><input type="checkbox" id = "but_activ_RUS1"  row_number = "WWW" onclick="ActiveDeactiv(this.getAttribute(\'id\'),this.getAttribute(\'row_number\'))"><label></label></div>												\
+		</div> 														\
+		<div class ="ru_body_unit" id="cellule_but_activ_RUS1_WWW">														\
+			<input type = "radio" name = "ru_powers1" id = "high_RUS1_WWW" value = "high" checked = "checked" /><label for = "high_power">High Power</label><p></p>													\
+			<input type = "radio" name = "ru_powers1" id = "low_RUS1_WWW" value = "low" /><label for = "low_power">Low Power</label>													\
+		<div class ="ru_body_unit_photo" >														\
+			<img src="pic\images\RU Chassis.png" alt="AU Chassis" width="100%">													\
+		</div> 														\
+		</div>														\
+</div> 																\
+</td>																\
+<td width = "140px">																\
+<div class = "ru_unit" id="RU_XXXRUS2">																\
+		<div class = "header_unit_left">RU Slave2</div>														\
+		<div class = "header_unit_right">														\
+				<div class="flipswitch"><input type="checkbox" id = "but_activ_RUS2"  row_number = "WWW" onclick="ActiveDeactiv(this.getAttribute(\'id\'),this.getAttribute(\'row_number\'))"><label></label></div>												\
+		</div> 														\
+		<div class ="body_unit_inactive" id="cellule_but_activ_RUS2_WWW">														\
+				<input type = "radio" name = "ru_powers2" id = "high_RUS2_WWW" value = "high" checked = "checked" /><label for = "high_power">High Power</label><p></p>												\
+				<input type = "radio" name = "ru_powers2" id = "low_RUS2_WWW" value = "low" /><label for = "low_power">Low Power</label>												\
+		<div class ="ru_body_unit_photo" >														\
+			<img src="pic\images\RU Chassis.png" alt="AU Chassis" width="100%">													\
+		</div> 														\
+		</div> 														\
+</div> 																\
+</td>																\
+<td>																\
+<div class="ip_unit nonip" id="ip_services">																\
+	<div align="center"><b>IP SERVICE</b></div>															\
+<div class=" class="body_ip_services">																\
+	<div class="onoffswitch_1g">															\
+		<input type="checkbox" name="onoffswitch_1g" class="onoffswitch_1g-checkbox" id="onoffswitch_1g_WWW" checked>														\
+		<label class="onoffswitch_1g-label" for="onoffswitch_1g_WWW">														\
+        <span class="onoffswitch_1g-inner"></span><span class="onoffswitch_1g-switch"></span>																\
+		</label>														\
+	</div>															\
+	<div class="onoffswitch_2g">															\
+		<input type="checkbox" name="onoffswitch_2g" class="onoffswitch_2g-checkbox" id="onoffswitch_2g_WWW" checked>														\
+		<label class="onoffswitch_2g-label" for="onoffswitch_2g_WWW">														\
+        <span class="onoffswitch_2g-inner"></span><span class="onoffswitch_2g-switch"></span>																\
+		</label>														\
+	</div>															\
+	<div class="onoffswitch_3g">															\
+		<input type="checkbox" name="onoffswitch_3g" class="onoffswitch_3g-checkbox" id="onoffswitch_3g_WWW" checked>														\
+		<label class="onoffswitch_3g-label" for="onoffswitch_3g_WWW">														\
+        <span class="onoffswitch_3g-inner"></span><span class="onoffswitch_3g-switch"></span>																\
+		</label>														\
+	</div>															\
+	<div class="onoffswitch_4g">															\
+		<input type="checkbox" name="onoffswitch_4g" class="onoffswitch_4g-checkbox" id="onoffswitch_4g_WWW" checked>														\
+		<label class="onoffswitch_4g-label" for="onoffswitch_4g_WWW">														\
+        <span class="onoffswitch_4g-inner"></span><span class="onoffswitch_4g-switch"></span>																\
+		</label>														\
+	</div>															\
+	<div class="onoffswitch_5g">															\
+		<input type="checkbox" name="onoffswitch_5g" class="onoffswitch_5g-checkbox" id="onoffswitch_5g_WWW" checked>														\
+		<label class="onoffswitch_5g-label" for="onoffswitch_5g_WWW">														\
+        <span class="onoffswitch_5g-inner"></span><span class="onoffswitch_5g-switch"></span>																\
+		</label>														\
+	</div>															\
+	<div class="onoffswitch_6g">															\
+		<input type="checkbox" name="onoffswitch_6g" class="onoffswitch_6g-checkbox" id="onoffswitch_6g_WWW" checked>														\
+		<label class="onoffswitch_6g-label" for="onoffswitch_6g_WWW">														\
+        <span class="onoffswitch_6g-inner"></span><span class="onoffswitch_6g-switch"></span>																\
+		</label>														\
+	</div>															\
+</div> 																\
+</div>																\
+</td>																\
+</tr>																\
+<tr  bgcolor="#ffffff" id="ROW_VVV">																\
+<td>																\
+<input type="button"  value="+" class="btn_addau" row_number = "RRR" onclick="AddNewAU(this.getAttribute(\'row_number\'))"></td>																\
+<td></td>																\
+<td></td>																\
+<td></td>																\
+<td></td>																\
+<td></td>																\
+<td></td>																\
+<td></td>																\
+</tr>																\

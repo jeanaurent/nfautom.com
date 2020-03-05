@@ -1,0 +1,165 @@
+<tr class="AU" id="ROW_WWW">																			\
+<td width = "30%" Id="XXXAUM">																			\
+</td>																			\
+<td>																			\
+</td>																			\
+<td width = "20%" class ="show_EU" id = "XXXEU1">\
+<div class = "eu_unit">\
+<div class = "header_unit_left_eu"><div class="eu_recalage">EU</div></div>\
+<div class = "header_unit_right_eu">\
+<div class="flipswitch_eu"><input class ="but_checkbox" type="checkbox" id = "but_activ_EU1_WWW" id_tab = "XXXEU1" row_number = "WWW" onclick="ActiveDeactiv(this.getAttribute(\'id\'),this.getAttribute(\'row_number\'), this.getAttribute(\'id_tab\'))"><label></label></div>\
+</div>\
+<div class ="body_unit_inactive" id="cellule_XXXEU1">\
+<div class ="eu_body_unit_photo" >\
+<img src="pic/images/EU (Reduced).png" alt="AU Chassis" width="100%">\
+</div>\
+<div class="div_button_eu_ipru"	>				\
+<a class="button_add" row_number = "WWW" onclick="AddNewRU_Master(this.getAttribute(\'row_number\'))"><img src="pic/images/img_but_add.png" width="13%"  class="img_add">Add RU Master</a>				\
+<div class="button_add_ip">Add IP Services</div> \
+<div class="checkboxip"><input id="Add_ip" type="checkbox"  onclick="update_ip()"><label></label></div>																		\
+</div>\
+</div>\
+</td>\
+<td>																			\
+</td>																			\
+<td width = "35%" id="WWW" id_cell = "XXXRUM">																			\
+<div class = "ru_unit"  id="XXXRUM" row_number = "WWW">																			\
+<div class = "header_unit_left_ru">RU Master</div>																			\
+<div class = "header_unit_right_ru">																			\
+<div class="flipswitch"><input class = "but_checkbox" type="checkbox" id = "but_activ_RUM1_WWW" id_tab = "XXXRUM"  row_number = "WWW" onclick="ActiveDeactiv(this.getAttribute(\'id\'),this.getAttribute(\'row_number\'), this.getAttribute(\'id_tab\'))"><label></label></div>																			\
+</div> 																			\
+<div class ="body_unit_inactive" id="cellule_XXXRUM">																			\
+<div class="Hi_Lo_power" id_cell = "XXXRUM" row_number = "WWW" onchange="change_remote(this.getAttribute(\'row_number\'),this.getAttribute(\'id_cell\'))">																			\
+<input type = "radio" name = "ru_power_WWW" id = "low_RUM1_WWW" value = "low" checked = "checked"  /><label for = "low_power">LP</label>																			\
+<input type = "radio" name = "ru_power_WWW" id = "high_RUM1_WWW" value = "high" /><label for = "high_power">HP</label>																			\
+</div>																			\
+<div class ="ru_body_unit_photo" >																			\
+<img src="pic/images/remot_lp.png" alt="RU Chassis" width="100%" Id="photo_ru_master_WWW" >																			\
+</div>																			\
+<div class="div_button_add_ru"	>				\
+<a  class="AddSlaveRU" row_number = "WWW" onclick="AddNewRU_Slave(this.getAttribute(\'row_number\'))"><img src="pic/images/img_but_add.png" width="13%"  class="img_add">Add Slave RU</a>				\
+</div> 																			\
+</div>																			\
+</div> 																			\
+</div> 																			\
+<div width="17%"  id="ip_services" class="hide_IP">																			\
+<div class="body_ip_services" >																			\
+<div align="center"><b>IP SERVICES</b><img src="pic/images/wirelessIcon2.png" width="8%" class="img_ip"></div>																			\
+<div class="onoffswitch_1g"><input type="checkbox"  id="onoffswitch_1g_WWW" onclick="change_ip(1,this.checked)"><label></label></div><div class="liste_ip"> Small Cells </div> \
+<div class="onoffswitch_1g"><input type="checkbox"  id="onoffswitch_2g_WWW" onclick="change_ip(2,this.checked)"><label></label></div><div class="liste_ip">Enterprise WiFi </div> \
+<div class="onoffswitch_1g"><input type="checkbox"  id="onoffswitch_3g_WWW" onclick="change_ip(3,this.checked)"><label></label></div><div class="liste_ip"> Corporate LAN </div> \
+<div class="onoffswitch_1g"><input type="checkbox"  id="onoffswitch_4g_WWW" onclick="change_ip(4,this.checked)"><label></label></div><div class="liste_ip"> Surveillance </div> \
+<div class="onoffswitch_1g"><input type="checkbox"  id="onoffswitch_5g_WWW" onclick="change_ip(5,this.checked)"><label></label></div><div class="liste_ip">Building Management </div> \
+<div class="onoffswitch_1g"><input type="checkbox"  id="onoffswitch_6g_WWW" onclick="change_ip(6,this.checked)"><label></label></div><div class="liste_ip">Traffic Management</div> \
+</div> 																			\
+</div> 																			\
+<div class = "ru_unit_slave" id="XXXRUS1" row_number = "WWW">																			\
+<div class = "header_unit_left_ru">RU Slave 1</div>																			\
+<div class = "header_unit_right_ru">																			\
+<div class="flipswitch"><input class = "but_checkbox"  type="checkbox" id = "but_activ_RUS1_WWW" id_tab = "XXXRUS1"  row_number = "WWW" onclick="ActiveDeactiv(this.getAttribute(\'id\'),this.getAttribute(\'row_number\'), this.getAttribute(\'id_tab\'))"><label></label></div>																			\
+</div> 																			\
+<div class ="body_unit_inactive" id="cellule_XXXRUS1">																			\
+<div class="Hi_Lo_power" id_cell = "XXXRUS1" row_number = "WWW" onchange="change_remote(this.getAttribute(\'row_number\'),this.getAttribute(\'id_cell\'))">																			\
+<input type = "radio" name = "ru_powers1_WWW" id = "low_RUS1_WWW" value = "low" checked = "checked"  /><label for = "low_power">LP</label>																			\
+<input type = "radio" name = "ru_powers1_WWW" id = "high_RUS1_WWW" value = "high" /><label for = "high_power">HP</label>																			\
+</div>																			\
+<div class ="ru_body_unit_photo_slave" >																			\
+<img src="pic/images/remot_lp.png" alt="AU Chassis" width="100%" id="photo_ru_slave1_WWW">																			\
+</div> 																			\
+<div class="div_button_add_ru"	>				\
+<a class="AddSlaveRU" row_number = "WWW" onclick="AddNewRU_Slave(this.getAttribute(\'row_number\'))"><img src="pic/images/img_but_add.png" width="13%"  class="img_add">Add Slave RU</a>				\
+</div>																		\
+</div> 																			\
+</div> 																			\
+<div class = "ru_unit_slave" id="XXXRUS2" row_number = "WWW">																			\
+<div class = "header_unit_left_ru">RU Slave 2</div>																			\
+<div class = "header_unit_right_ru">																			\
+<div class="flipswitch"><input class = "but_checkbox" type="checkbox" id = "but_activ_RUS2_WWW" id_tab = "XXXRUS2"  row_number = "WWW" onclick="ActiveDeactiv(this.getAttribute(\'id\'),this.getAttribute(\'row_number\'), this.getAttribute(\'id_tab\'))"><label></label></div>																			\
+</div> 																			\
+<div class ="body_unit_inactive" id="cellule_XXXRUS2">																			\
+<div class="Hi_Lo_power" id_cell = "XXXRUS2" row_number = "WWW" onchange="change_remote(this.getAttribute(\'row_number\'),this.getAttribute(\'id_cell\'))">																			\
+<input type = "radio" name = "ru_powers2_WWW" id = "low_RUS2_WWW" value = "low" checked = "checked"/><label for = "low_power">LP</label>																			\
+<input type = "radio" name = "ru_powers2_WWW" id = "high_RUS2_WWW" value = "high"  /><label for = "high_power">HP</label>																			\
+</div>																			\
+<div class ="ru_body_unit_photo_slave" >																			\
+<img src="pic/images/remot_lp.png" alt="AU Chassis" width="100%" id="photo_ru_slave2_WWW">																			\
+</div> 																			\
+<div class="div_button_add_ru"	>				\
+<a class="AddSlaveRU" row_number = "WWW" onclick="AddNewRU_Slave(this.getAttribute(\'row_number\'))"><img src="pic/images/img_but_add.png" width="13%"  class="img_add">Add Slave RU</a>				\
+</div> 																			\
+</div>																			\
+</div> 																			\
+<div class = "ru_unit_slave" id="XXXRUS3" row_number = "WWW">																			\
+<div class = "header_unit_left_ru">RU Slave 3</div>																			\
+<div class = "header_unit_right_ru">																			\
+<div class="flipswitch"><input class = "but_checkbox"  type="checkbox" id = "but_activ_RUS3_WWW" id_tab = "XXXRUS3"  row_number = "WWW" onclick="ActiveDeactiv(this.getAttribute(\'id\'),this.getAttribute(\'row_number\'), this.getAttribute(\'id_tab\'))"><label></label></div>																			\
+</div> 																			\
+<div class ="body_unit_inactive" id="cellule_XXXRUS3">																			\
+<div class="Hi_Lo_power"  id_cell = "XXXRUS3"  row_number = "WWW" onchange="change_remote(this.getAttribute(\'row_number\'),this.getAttribute(\'id_cell\'))">																			\
+<input type = "radio" name = "ru_powers3_WWW" id = "low_RUS3_WWW" value = "low" checked = "checked"  /><label for = "low_power">LP</label>																			\
+<input type = "radio" name = "ru_powers3_WWW" id = "high_RUS3_WWW" value = "high" /><label for = "high_power">HP</label>																			\
+</div>																			\
+<div class ="ru_body_unit_photo_slave" >																			\
+<img src="pic/images/remot_lp.png" alt="AU Chassis" width="100%" id="photo_ru_slave3_WWW">																			\
+</div> 																			\
+<div class="div_button_add_ru"	>				\
+<a class="AddSlaveRU" row_number = "WWW" onclick="AddNewRU_Slave(this.getAttribute(\'row_number\'))"><img src="pic/images/img_but_add.png" width="13%"  class="img_add">Add Slave RU</a>				\
+</div> 																			\
+</div>																			\
+</div> 																			\
+<div class = "ru_unit_slave" id="XXXRUS4" row_number = "WWW">																			\
+<div class = "header_unit_left_ru">RU Slave 4</div>																			\
+<div class = "header_unit_right_ru">																			\
+<div class="flipswitch"><input class = "but_checkbox"  type="checkbox" id = "but_activ_RUS4_WWW" id_tab = "XXXRUS4"  row_number = "WWW" onclick="ActiveDeactiv(this.getAttribute(\'id\'),this.getAttribute(\'row_number\'), this.getAttribute(\'id_tab\'))"><label></label></div>																			\
+</div> 																			\
+<div class ="body_unit_inactive" id="cellule_XXXRUS4">																			\
+<div class="Hi_Lo_power"  id_cell = "XXXRUS4"  row_number = "WWW" onchange="change_remote(this.getAttribute(\'row_number\'),this.getAttribute(\'id_cell\'))">																			\
+<input type = "radio" name = "ru_powers4_WWW" id = "low_RUS4_WWW" value = "low" checked = "checked"  /><label for = "low_power">LP</label>																			\
+<input type = "radio" name = "ru_powers4_WWW" id = "high_RUS4_WWW" value = "high" /><label for = "high_power">HP</label>																			\
+</div>																			\
+<div class ="ru_body_unit_photo_slave" >																			\
+<img src="pic/images/remot_lp.png" alt="AU Chassis" width="100%" id="photo_ru_slave4_WWW">																			\
+</div> 																			\
+<div class="div_button_add_ru"	>				\
+<a class="AddSlaveRU" row_number = "WWW" onclick="AddNewRU_Slave(this.getAttribute(\'row_number\'))"><img src="pic/images/img_but_add.png" width="13%"  class="img_add">Add Slave RU</a>				\
+</div> 																			\
+</div>																			\
+</div> 																			\
+<div class = "ru_unit_slave" id="XXXRUS5" row_number = "WWW">																			\
+<div class = "header_unit_left_ru">RU Slave 5</div>																			\
+<div class = "header_unit_right_ru">																			\
+<div class="flipswitch"><input class = "but_checkbox"  type="checkbox" id = "but_activ_RUS5_WWW" id_tab = "XXXRUS5"  row_number = "WWW" onclick="ActiveDeactiv(this.getAttribute(\'id\'),this.getAttribute(\'row_number\'), this.getAttribute(\'id_tab\'))"><label></label></div>																			\
+</div> 																			\
+<div class ="body_unit_inactive" id="cellule_XXXRUS5">																			\
+<div class="Hi_Lo_power"  id_cell = "XXXRUS5"  row_number = "WWW" onchange="change_remote(this.getAttribute(\'row_number\'),this.getAttribute(\'id_cell\'))">																			\
+<input type = "radio" name = "ru_powers5_WWW" id = "low_RUS5_WWW" value = "low" checked = "checked"  /><label for = "low_power">LP</label>																			\
+<input type = "radio" name = "ru_powers5_WWW" id = "high_RUS5_WWW" value = "high" /><label for = "high_power">HP</label>																			\
+</div>																			\
+<div class ="ru_body_unit_photo_slave" >																			\
+<img src="pic/images/remot_lp.png" alt="AU Chassis" width="100%" id="photo_ru_slave5_WWW">																			\
+</div> 																			\
+<div class="div_button_add_ru"	>				\
+<a class="AddSlaveRU" row_number = "WWW" onclick="AddNewRU_Slave(this.getAttribute(\'row_number\'))"><img src="pic/images/img_but_add.png" width="13%"  class="img_add">Add Slave RU</a>				\
+</div> 																			\
+</div>																			\
+</div> 																			\
+</td>																			\
+</tr>																			\
+<tr id="ROW_VVV">															\
+<td></td>																		\
+<td>	\
+</td>																			\
+<td></td>																		\
+<td></td>																		\
+<td></td>																		\
+<td class="hide_IP"></td>																\
+</tr>																			\
+<tr id="ROW_UUU">															\
+<td></td>																		\
+<td>	\
+</td>																			\
+<td></td>																		\
+<td></td>																		\
+<td></td>																		\
+<td class="hide_IP"></td>																\
+</tr>																			\
